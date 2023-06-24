@@ -1,0 +1,37 @@
+.header {
+    padding-top: 20px;
+    padding-bottom: 19px;
+    background: rgba(#DBDBDB33, .2);
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__logo {
+        font-family: 'Raleway Extra Bold', sans-serif;
+        font-weight: 800;
+        font-size: 35px;
+        line-height: 42px;
+        color: #2D2D2D;
+        &--color {
+            color: #F60224;
+        }
+    }
+    &__text {
+        font-size: 20px;
+        line-height: 20px;
+        color: #2D2D2D;
+    }
+    &__button {
+        width: 385px;
+        height: 60px;
+        border-radius: 20px;
+        background: #0065B1;
+    }
+    &__button-mobile {
+        display: none;
+    }
+    &__text-mobile {
+        display: none;
+    }
+}

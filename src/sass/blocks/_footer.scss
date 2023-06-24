@@ -1,0 +1,37 @@
+.footer {
+    padding: 27px 0;
+    background: #FFF;
+    box-shadow: 2px 0px 4px 2px rgba(45, 45, 45, 0.15);
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__text-copy {
+        font-size: 15px;
+        color: #2D2D2D;
+    }
+    &__text {
+        font-size: 16px;
+        color: #2D2D2D;
+    }
+    &__content-center {
+        width: 355px;
+        text-align: center;
+    }
+    &__policy-link {
+        font-size: 16px;
+        text-decoration: underline;
+        color: #0065B1;
+    }
+    &__content-right {
+        width: 167px;
+        text-align: right;
+    }
+    &__text-bold {
+        font-family: 'Raleway Bold', sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        color: #2D2D2D;
+    }
+}
